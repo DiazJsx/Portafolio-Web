@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Diaz D.</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Acerca de</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Diaz D.</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Acerca de</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experiencia</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Proyectos</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/perfil itadori-modified.png" alt="Diaz D. profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hola soy</p>
+        <h1 class="title">Diaz D. Hans</h1>
+        <p class="section__text__p2">Desarrollador Front-End y Database Diseñador UX/UI</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Diaz De la cruz Hans - CV.pdf')"
+          >
+            Download CV
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/hans-leodan-d%C3%ADaz-de-la-cruz-94026a268'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/DiazJsx'"
+          />
+          <img
+          src="./assets/klipartz.com.png"
+          alt="My Instagram profile"
+          class="icon"
+          onclick="location.href='https://www.instagram.com/diaz_l15.jsx?igsh=eWk2b21uYWh2eGFv'"
+        />
+        <img
+        src="./assets/logotipo-circular-de-facebook.png"
+        alt="My Facebook profile"
+        class="icon"
+        onclick="location.href='https://www.facebook.com/Capy.One?mibextid=ZbWKwL'"
+      />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Conozca más</p>
+      <h1 class="title">Acerca de mí</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/jjj.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experiencia</h3>
+              <p> 6+ Meses <br />Practicante Pre</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Carrera</h3>
+              <p>Desarrollo de software<br /></p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Egresado de Desarrollo de Software en SENATI. Apasionado por la tecnología y con ganas
+              de aprender y crecer. Siempre en busca de nuevas oportunidades para desafiarme y mejorar mis habilidades.
+              Mis objetivos como egresado es convertirme en desarrollador de software, Front-End, Base de Datos y
+              diseñador UX/UI y contribuir al desarrollo de soluciones tecnológicas innovadoras.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">EXPLORA MI</p>
+      <h1 class="title">Experiencia en clases y prácticas pre profesionales</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Front-End</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/html.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Html</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/css.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Css</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/react.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Studying</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/js.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/ux.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Diseño UX</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/ui.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Diseño UI</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Base de Datos</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/mysql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/sql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL Server</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/mariadb.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <div>
+                    <h3>Maria DB</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/excel.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <div>
+                      <div>
+                        <h3>Microsoft Excel</h3>
+                        <p>Studying</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/lucid.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                  <h3>Lucidchart</h3>
+                  <p>basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/git.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GitHub</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <br>
+    <br>
+    <br>
+    <section id="projects">
+      <p class="section__text__p1">Explorar Mis Recientes</p>
+      <h1 class="title">Proyectos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/portafolio.grande.png"
+                alt="Project #1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Portfolio Web</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/DiazJsx/Portafolio-Web'"
+              >
+                Github
+              </button>
+
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/inicio.png"
+                alt="Project #2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Inicio de Sesion</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/DiazJsx/Inicio-Sesion'"
+              >
+                Github
+              </button>
+
+            </div>
+          </div>
+<br>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/crudddddddddd.png"
+              alt="Project #4"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Crud</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/DiazJsx/Crud-Desing'"
+            >
+              Github
+            </button>
+
+          </div>
+        </div>
+<br>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/abarrotes.png"
+            alt="Project #4"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Abarrotes</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/DiazJsx/Abarrotes-Desing'"
+          >
+            Github
+          </button>
+
+        </div>
+      </div>
+<br>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Ponte en contacto</p>
+      <h1 class="title">Contáctame</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:hansdiazxd@gmail.com">Email</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/hans-leodan-d%C3%ADaz-de-la-cruz-94026a268">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; Diaz D.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
