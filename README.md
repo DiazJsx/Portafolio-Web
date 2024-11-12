@@ -1,2 +1,2 @@
 # Portafolio-Web
-Portafolio web con datos suficientes sobre mi carrera profesional
+Mi portafolio web es una plataforma para explorar mis proyectos y logros en desarrollo de software, destacando mi crecimiento profesional y las habilidades que he adquirido.
